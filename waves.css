@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.bgimage
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('bgimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#wave
+{
+    position: absolute;
+    bottom: 0;
+}
+
+
+ /* TEACHER SECTION START */
+
+.out_teachers
+{
+    background-color: #9EC8B9;
+    width: 100%;
+    /* height: 300px; */
+    padding: 3rem;
+}
+.out_teachers h1
+{
+    text-align: center;
+}
+.teacher_image {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+.teacher_image img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.checked {
+    color: orange;
+  }
+
+  .teacher {
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    text-align: center;
+    background-color: aliceblue;
+    line-height: 40px;
+}
+.mybtn a
+{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 8px 2rem;
+    border-radius: 10px;
+}
+
+.mybtn:hover
+{
+    transform: translate(20px, 10px);
+    transition: 1s;
+}
+.align_teachers
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+/* .teacher:hover
+{
+    background-color: #526D82;
+    transition: 0.2s linear;
+    color: white;
+} */
